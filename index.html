@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
+    <title>Simon Szustkowski</title>
+  </head>
+  <body>
+    <span id="prompt">
+      <span id="prompt-user-at-host">
+        visitor@simonszu.de
+      </span>
+      <span id="prompt-path">
+        ~ $ 
+      </span>
+      <span id="command">cat</span> <span id="filename">homepage.txt</span>
+    </span>
+    <div id="logowrapper">
+      <div id="logo">
+        _____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____&nbsp;&nbsp;<br/>
+        |&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<br/>
+        |&nbsp;&nbsp;&nbsp;|____________________|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<br/>
+        |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<br/>
+        |______&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______|&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\__/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+      </div>
+    </div>
+    <p>
+    Hi there.<br/> 
+    My name is Simon Szustkowski, and this is my personal homepage.<br/>
+    I am one of those computer guys. I mostly do network and linux administration and a little scripting, preferrably in Ruby. I am quite interested in DevOps stuff, and always willing to test new things.
+    <p>
+    In my free time, i go on bike rides, geocaching, and taking some photos. I am a licensed ham radio operator (my call is DO1TTK), and sometimes you can hear me on air. <br/>
+    On rainy days, i enjoy flying spaceships in <a href="https://www.eveonline.com/">EVE Online</a>. There, i am known as Ryne Ikkara, a proud Caldari, living in the Amarrian airspace. 
+    <p>
+    There is not much more to see here. Maybe you want to visit some of my profiles on various other websites?
+    <ul>
+    <li><a href="https://twitter.com/simonszu">Twitter</a></li>
+    <li><a href="https://github.com/simonszu">GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Simon_Szustkowski">Xing</a></li>
+    <li><a href="https://www.flickr.com/photos/simonszu/">flickr</a></li>
+    </ul>
+    I have also a <a href="https://blog.simonszu.de">Blog</a>, where i infrequently write stuff about things which i am thinking about. 
+    <p>
+    This host is a node in the <a href="https://dn42.net/Home">DN42</a> network, AS4242421111<br/>
+    ...and also a bridge in the tor network.
+    <p>
+    If you got lots of certificate errors when visiting this site: This means that you wanted to access a non-existing subdomain <br/>
+    and got redireced to this default page instead. All my existing vHosts have proper SSL/TLS-certificates, provided by <a href="https://letsencrypt.org/">Let's Encrypt</a>.
+    <p>
+    If you have questions, feel free to contact me at MAIL &lt;at&gt; SIMONSZU &lt;dot&gt; DE. My GPG key id is 9EAA1201, but to be honest, i prefer unencrypted emails, since GPG is no great-to-use software. <br/>
+    <br/>
+    <i>EOF</i><br/><br/>
+    <span id="prompt">
+      <span id="prompt-user-at-host">
+        visitor@simonszu.de
+      </span>
+      <span id="prompt-path">
+        ~ $ 
+      </span>
+      <span id="fake-prompt"></span><span class="blinking-cursor">&#9608;</span>
+    </span>
+    <div id="bottom-bar">
+      <span id="bottom-bar-content">
+        <span id="left-bottom-panel">
+          1:1
+        </span>
+        <span id="hostname-bottom-panel">
+          [ visitor@simonszu.de ]
+        </span>
+        <span id="active-bottom-panel">
+          #1:homepage
+        </span>
+        <span id="passive-bottom-panel">
+          #2:foo
+        </span>
+        <span id="date-clock-bottom-panel">
+        </span>
+      </span>
+    </div>
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//piwik.simonszu.de/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '8']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
