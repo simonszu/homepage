@@ -1,0 +1,59 @@
+==================================================================                                                     
+https://keybase.io/simonszu                                                                                            
+--------------------------------------------------------------------                                                   
+                                                                                                                       
+I hereby claim:                                                                                                        
+                                                                                                                       
+  * I am an admin of https://www.simonszu.de
+  * I am simonszu (https://keybase.io/simonszu) on keybase.
+  * I have a public key ASDo8PgzKP4Te31J0g2nbO6z5wPN8YqrjTCUsbLeCarTAAo                                               
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f344e1b18171c8767bbbf783da2b7ec3f29f6358b19b89cb495ddf1517a7ab840a",                         
+      "host": "keybase.io",
+      "kid": "0120e8f0f83328fe137b7d49d20da76ceeb3e703cdf18aab8d3094b1b2de09aad3000a",                                
+      "uid": "ce3cf13948945d12a4ae139d19415e19",
+      "username": "simonszu"
+    },
+    "merkle_root": {
+      "ctime": 1526372405,
+      "hash": 
+"61fa23a79ccd4004e0f8e50badba6deff089244eb8c6b276860d42c527cd58a45acfe159364d6d5b885e8a68b0de3a7bbc568ad$11db3c1fc03c2a3ec92f2176",
+      "hash_meta": "fa9772163ec7c2acac71de56a1cfb02823d2d8487686dbfdc426a2c899505066",                                
+      "seqno": 2731494
+    },
+    "service": {
+      "entropy": "bucvVkLxoIJJrrpxIkJVkLkz",
+      "hostname": "www.simonszu.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1526372572,
+  "expire_in": 504576000,
+  "prev": "578284c708e386ca751e76cebb6f7cdcf14f4bbf530268dfc2878ddca32374dd",                                         
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6PD4Myj+E3t9SdINp2zus+cDzfGKq40wlLGy3gmq0wAKp3BheWxvYWTESpcCIMQgV4KExwj
+jhsp1HnbOu2983PFPS79TAmjfwoeN3KMjdN3EIIi2DQh3ukVCi4odUcFq+w0CILINUl5+MPFDKMHS0zEvAgHCo3NpZ8RABuOeYWnKSSwt0rhGK0Udb9PWZk
+bo/XzcbCLFVvVl2e1QB8DH5znskiRuty31OkCwMypGX45uMjJ1k9KJKWJlAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIGPSGS8WHr5Qokq+RuOM
+cxrRsGeI12YoF2WlbvWSksBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/simonszu
+
