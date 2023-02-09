@@ -5,6 +5,11 @@ body {
   font-size: 14px;
 }
 
+.icon {
+  width: 16;
+  height: 16;
+}
+
 a:link {
   color: #088A08;
 }
