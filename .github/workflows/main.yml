@@ -6,8 +6,6 @@ name: Docker
 # documentation.
 
 on:
-  schedule:
-    - cron: '17 22 * * *'
   push:
     branches: [ master ]
     # Publish semver tags as releases.
@@ -52,3 +50,7 @@ jobs:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ env.IMAGE_NAME }}:latest
+      
+      - name: Zero-config releases to Github Packages
+        uses: jtagcat/action-docker-ghpackages@v1.2.0
+
